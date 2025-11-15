@@ -1,0 +1,265 @@
+{
+  "intentions": [
+    {
+      "tag": "salutations",
+      "questions": [
+        "Bonjour",
+        "Salut",
+        "Bonsoir",
+        "Coucou",
+        "Yo",
+        "Comment allez-vous ?",
+        "Ça va ?",
+        "Quoi de neuf ?",
+        "Bonne matinée",
+        "Bonne après-midi"
+      ],
+      "réponses": [
+        "Bonjour et bienvenue à l’Université Alioune Diop de Bambey (UADB) !",
+        "Salut ! Comment puis-je vous aider aujourd’hui ?",
+        "Bonjour ! Ravi de vous voir. Que puis-je faire pour vous ?",
+        "Bienvenue à l’UADB ! Comment allez-vous ?"
+      ]
+    },
+
+    {
+      "tag": "presentation",
+      "questions": [
+        "Qu’est-ce que l’UADB ?",
+        "C’est quoi l’UADB ?",
+        "Pouvez-vous me présenter l’université Alioune Diop de Bambey ?",
+        "Donnez-moi des informations sur l’UADB",
+        "Parlez-moi un peu de votre université",
+        "Quel est le rôle de l’UADB ?",
+        "Qu'est-ce que l'UADB ?", 
+        "UADB c'est quoi ?", "Pouvez-vous m'expliquer l'UADB ?",
+         "Que signifie UADB ?"
+      ],
+      "réponses": [
+        "L’Université Alioune Diop de Bambey (UADB) est une université publique du Sénégal, créée en 2007. Elle forme des étudiants dans plusieurs domaines scientifiques et professionnels.",
+        "L’UADB est un établissement d’enseignement supérieur sénégalais situé à Bambey. Elle met l’accent sur la recherche, l’innovation et le développement régional.",
+        "L’UADB vise à offrir une formation de qualité adaptée aux besoins du marché du travail sénégalais et africain."
+      ]
+    },
+
+    {
+      "tag": "domaines_de_formation",
+      "questions": [
+        "Quels sont les domaines de formation ?",
+        "Dans quels domaines formez-vous ?",
+        "Quelles sont vos filières ?",
+        "Quels sont les départements de l’université ?",
+        "Parlez-moi des facultés de l’UADB",
+        "Que peut-on étudier à l’UADB ?"
+      ],
+      "réponses": [
+        "L’UADB propose plusieurs domaines de formation : \n- Sciences et Technologies \n- Sciences Économiques et Gestion \n- Lettres, Langues et Civilisations \n- Sciences Sociales et Politiques \n- Sciences de l’Éducation et de la Formation \n- Agriculture et Agroalimentaire",
+        "Nous offrons des formations diversifiées allant des sciences exactes aux sciences humaines et sociales."
+      ]
+    },
+
+    {
+      "tag": "departements",
+      "questions": [
+        "Quels sont les départements à l’UADB ?",
+        "Pouvez-vous me citer les départements ?",
+        "Combien de départements avez-vous ?",
+        "Quels sont les différents départements de l’université ?"
+      ],
+      "réponses": [
+        "L’UADB compte plusieurs départements tels que : \n- Département de Mathématiques et Informatique \n- Département de Sciences Économiques et Gestion \n- Département de Lettres et Sciences Humaines \n- Département d’Agriculture et Agroalimentaire \n- Département de Sciences de l’Éducation"
+      ]
+    },
+
+    {
+      "tag": "diplomes_delivres",
+      "questions": [
+        "Quels diplômes délivre l’UADB ?",
+        "Quels sont vos diplômes ?",
+        "Quel type de diplôme donnez-vous ?",
+        "Peut-on obtenir un master à l’UADB ?",
+        "Y a-t-il un doctorat à l’UADB ?"
+      ],
+      "réponses": [
+        "L’UADB délivre les diplômes suivants : \n- Licence \n- Master \n- Doctorat (Ph.D) \nainsi que des certificats professionnels.",
+        "Oui, il est possible de poursuivre jusqu’au doctorat dans plusieurs filières à l’UADB."
+      ]
+    },
+
+    {
+      "tag": "conditions_admission",
+      "questions": [
+        "Quelles sont les conditions d’admission ?",
+        "Comment être admis à l’UADB ?",
+        "Quels sont les critères d’entrée ?",
+        "Faut-il un bon dossier pour être admis ?"
+      ],
+      "réponses": [
+        "L’admission en première année se fait via la plateforme nationale Campusen. Pour les masters et doctorats, la sélection se fait sur dossier et parfois par entretien.",
+        "Les critères varient selon le niveau d’étude, mais la rigueur académique est toujours exigée."
+      ]
+    },
+
+    {
+      "tag": "pieces_a_fournir",
+      "questions": [
+        "Quelles sont les pièces à fournir pour l’inscription ?",
+        "Quels documents faut-il pour s’inscrire ?",
+        "Quelles sont les pièces demandées ?",
+        "Quels papiers sont nécessaires pour l’inscription ?"
+      ],
+      "réponses": [
+        "Les pièces à fournir : \n- Copie légalisée du diplôme ou attestation de réussite \n- Copie du relevé de notes du BAC \n- Copie de la carte d’identité \n- 2 photos d’identité \n- Reçu de paiement des frais d’inscription"
+      ]
+    },
+
+    {
+      "tag": "frais_inscription",
+      "questions": [
+        "Combien coûte l’inscription ?",
+        "Quel est le montant des frais de scolarité ?",
+        "Les frais d’inscription sont de combien ?",
+        "Combien faut-il payer pour s’inscrire ?"
+      ],
+      "réponses": [
+        "Les frais d’inscription varient selon le niveau et la filière, mais ils sont généralement compris entre 25 000 et 50 000 FCFA pour les étudiants sénégalais.",
+        "Les étudiants étrangers peuvent avoir des frais légèrement supérieurs selon le programme."
+      ]
+    },
+
+    {
+      "tag": "logement",
+      "questions": [
+        "Y a-t-il des logements pour étudiants ?",
+        "Avez-vous un campus universitaire ?",
+        "Est-ce qu’il y a des chambres à l’UADB ?",
+        "Proposez-vous des hébergements ?"
+      ],
+      "réponses": [
+        "Oui, l’UADB dispose de résidences universitaires pour les étudiants. Les attributions se font selon les critères sociaux et la disponibilité.",
+        "L’université travaille aussi avec des partenaires pour offrir d’autres solutions d’hébergement autour du campus."
+      ]
+    },
+
+    {
+      "tag": "restauration",
+      "questions": [
+        "Avez-vous un restaurant universitaire ?",
+        "Où les étudiants mangent-ils ?",
+        "Est-ce qu’il y a un resto sur le campus ?",
+        "Y a-t-il une cantine à l’UADB ?"
+      ],
+      "réponses": [
+        "Oui, l’UADB dispose d’un restaurant universitaire qui propose des repas à prix subventionné pour les étudiants.",
+        "Des points de restauration et cafés sont également disponibles sur le campus."
+      ]
+    },
+
+    {
+      "tag": "bibliotheque",
+      "questions": [
+        "Y a-t-il une bibliothèque à l’UADB ?",
+        "Avez-vous une bibliothèque ?",
+        "Est-ce qu’on peut emprunter des livres ?",
+        "Y a-t-il une bibliothèque numérique ?"
+      ],
+      "réponses": [
+        "Oui, l’UADB possède une grande bibliothèque universitaire moderne, ouverte du lundi au vendredi de 8h à 20h.",
+        "Une bibliothèque numérique est également accessible pour consulter des ressources en ligne."
+      ]
+    },
+
+    {
+      "tag": "activites",
+      "questions": [
+        "Quelles activités sont proposées aux étudiants ?",
+        "Y a-t-il des clubs à l’UADB ?",
+        "Proposez-vous des activités parascolaires ?",
+        "Est-ce qu’il y a des événements à l’université ?"
+      ],
+      "réponses": [
+        "Oui, plusieurs activités sont organisées : clubs scientifiques, clubs culturels, compétitions sportives, journées d’intégration, forums de l’emploi et conférences académiques.",
+        "Les étudiants peuvent rejoindre des associations et clubs pour développer leurs compétences et réseaux."
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "questions": [
+        "Comment contacter l’UADB ?",
+        "Avez-vous un numéro de téléphone ?",
+        "Quel est votre adresse email ?",
+        "Comment vous joindre ?",
+        "Avez-vous un site web ?"
+      ],
+      "réponses": [
+        "Vous pouvez contacter l’UADB via : \n- Site web : [www.uadb.edu.sn](http://www.uadb.edu.sn) \n- Email : contact@uadb.edu.sn \n- Téléphone : +221 33 973 00 00",
+        "Vous pouvez aussi suivre nos actualités sur Facebook et Twitter : @uadbOfficiel"
+      ]
+    },
+
+    {
+      "tag": "localisation",
+      "questions": [
+        "Où se trouve l’UADB ?",
+        "Quelle est la localisation de l’université ?",
+        "Donnez-moi l’adresse de l’UADB",
+        "Comment aller à Bambey ?"
+      ],
+      "réponses": [
+        "L’Université Alioune Diop de Bambey se situe dans la région de Diourbel, à environ 120 km de Dakar, sur la route nationale n°3.",
+        "Elle est facilement accessible depuis Dakar, Thiès et Diourbel."
+      ]
+    },
+
+    {
+      "tag": "debut_des_cours",
+      "questions": [
+        "Quand les cours commencent-ils ?",
+        "C’est quand la rentrée universitaire ?",
+        "Quand débute l’année académique ?",
+        "À quelle date commencent les cours ?"
+      ],
+      "réponses": [
+        "La rentrée universitaire à l’UADB débute généralement entre octobre et novembre, selon le calendrier académique officiel publié chaque année.",
+        "Les étudiants sont invités à consulter le site web de l’université pour connaître les dates précises."
+      ]
+    },
+
+    {
+      "tag": "remerciements",
+      "questions": [
+        "Merci",
+        "Merci beaucoup",
+        "C’est gentil",
+        "Je vous remercie"
+      ],
+      "réponses": [
+        "Avec plaisir !",
+        "Heureux de vous aider.",
+        "Je suis là pour ça !",
+        "Toujours à votre service."
+      ]
+    },
+
+    {
+      "tag": "au_revoir",
+      "questions": ["Au revoir", "À bientôt", "Bonne journée", "Bonne soirée"],
+      "réponses": [
+        "Au revoir et à très bientôt à l’UADB !",
+        "Bonne journée !",
+        "À la prochaine !"
+      ]
+    },
+
+    {
+      "tag": "inconnu",
+      "questions": [],
+      "réponses": [
+        "Désolé, je n’ai pas bien compris votre question.",
+        "Pouvez-vous reformuler s’il vous plaît ?",
+        "Je ne suis pas sûr de comprendre, pouvez-vous préciser ?"
+      ]
+    }
+  ]
+}

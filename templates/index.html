@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Malaria Detection</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding-top: 50px; }
+        img { width: 200px; margin-top: 20px; border-radius: 10px; }
+        button { padding: 10px 20px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>🦟 Malaria Cell Classification</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Analyser</button>
+    </form>
+
+    {% if prediction %}
+        <h2>Résultat : {{ prediction }}</h2>
+        <img src="{{ image_path }}" alt="Uploaded Image">
+    {% endif %}
+</body>
+</html>
