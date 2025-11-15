@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 <head>
     <title>Malaria Detection</title>
@@ -20,4 +20,15 @@
         <img src="{{ image_path }}" alt="Uploaded Image">
     {% endif %}
 </body>
-</html>
+</html> -->
+{% extends "base.html" %} {% block title %}Accueil{% endblock %} {% block
+content %}
+<h1>Bienvenue sur le Système de Détection du Paludisme</h1>
+<p>
+  Envoyez une image de cellule sanguine pour détecter si elle est parasitée ou
+  non.
+</p>
+{% if prediction %}
+<h3>Résultat : {{ prediction }}</h3>
+<img src="{{ image_path }}" width="200" />
+{% endif %} {% endblock %}

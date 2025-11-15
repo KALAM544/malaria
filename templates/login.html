@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block title %}Connexion{% endblock %} {% block
+content %}
+<div class="login-box">
+  <h2>Connexion</h2>
+
+  {% if error %}
+  <p style="color: red">{{ error }}</p>
+  {% endif %}
+
+  <form method="POST">
+    <input
+      type="text"
+      name="username"
+      placeholder="Nom d'utilisateur"
+      required
+    />
+    <input
+      type="password"
+      name="password"
+      placeholder="Mot de passe"
+      required
+    />
+
+    <button class="login-button">Se connecter</button>
+  </form>
+</div>
+{% endblock %}

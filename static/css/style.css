@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("..static/img/back1.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #0d6efd; /* bleu */
+  color: #ffffff; /* texte blanc */
+  padding: 15px;
+  text-align: center;
+  font-size: 22px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0d6efd; /* bleu */
+  padding-top: 60px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0d6efd; /* bleu */
+  padding-top: 60px;
+}
+
+.sidebar a {
+  display: block;
+  color: #ffffff; /* texte blanc */
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar a:hover {
+  background-color: #084298; /* bleu plus foncé au hover */
+}
+
+/* MAIN CONTENT */
+.content {
+  margin-left: 250px;
+  padding: 20px;
+  color: #0d6efd; /* bleu pour le texte principal */
+}
+
+/* FORMULAIRE LOGIN / PREDICTION */
+.login-box {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 25px;
+  background: #ffffff; /* blanc */
+  border-radius: 10px;
+  color: #0d6efd; /* bleu */
+}
+
+.login-box input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #0d6efd; /* bleu bordure */
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #0d6efd; /* bleu */
+  border: none;
+  color: #ffffff; /* texte blanc */
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.login-button:hover {
+  background-color: #084298; /* bleu foncé au hover */
+}
+
+/* Résultat prédiction */
+.alert {
+  border: 1px solid #0d6efd; /* bleu bordure */
+  background-color: #ffffff; /* blanc */
+  color: #0d6efd; /* bleu texte */
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 20px;
+}
